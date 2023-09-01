@@ -139,24 +139,24 @@ public class Ex27_if {
 		} else {
 			System.out.println("재고 없음");
 		}
-		
-		
-		if (보유한 색상인지?) {
-		
-		if (color.equals("빨강") 
-				|| color.equals("파랑")) 
-				|| color.equals("노랑")  {
-			 System.out.println("16000원");
-			
-		 }  else if (color.equals("노랑")) {
-			System.out.println("20000원");
-			
-		 } else {
-			System.out.println("색상 없음");
-		 } 
-		
-		}
 	}
+		
+//		if (보유한 색상인지?) {
+//		
+//		if (color.equals("빨강") 
+//				|| color.equals("파랑")) 
+//				|| color.equals("노랑")  {
+//			 System.out.println("16000원");
+//			
+//		 }  else if (color.equals("노랑")) {
+//			System.out.println("20000원");
+//			
+//		 } else {
+//			System.out.println("색상 없음");
+//		 } 
+//		
+//		}
+//	}
 
 	private static void m3() {
 		

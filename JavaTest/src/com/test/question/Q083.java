@@ -29,14 +29,40 @@ public class Q083 {
 			hwp : 2개
 			doc : 2개
 		 */
-		String input = "";
+		int Mp3 = 0;
+		int Jpg = 0;
+		int Java = 0;
+		int Hwp = 0;
+		int Doc = 0;
 		
 		Scanner scan = new Scanner(System.in);
 		
 		for(int i=0; i<10; i++) {
-			System.out.print("파일명: ");
-			input = scan.nextLine();
+			
+			System.out.println("파일명: ");
+			String file = scan.nextLine();
+			
+			file = file.toLowerCase();
+			
+			if(file.endsWith(".mp3")) {
+				Mp3++;
+			} else if(file.endsWith(".jpg")) {
+				Jpg++;
+			} else if(file.endsWith(".java")) {
+				Java++;
+			} else if(file.endsWith(".hwp")) {
+				Hwp++;
+			} else if(file.endsWith(".doc")) {
+				Doc++;
+			}
+					
 		}
+		
+		System.out.printf("mp3: %d개\n", Mp3);
+		System.out.printf("jpg: %d개\n", Jpg);
+		System.out.printf("java: %d개\n", Java);
+		System.out.printf("hwp: %d개\n", Hwp);
+		System.out.printf("doc: %d개\n", Doc);
 		
 	}
 }
